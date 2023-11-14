@@ -5,7 +5,7 @@ export interface ButtonProps {
 }
 
 export interface InfoBlockProps {
-  title: string
+  title?: string
   body?: string
   phone?: string
   email?: string

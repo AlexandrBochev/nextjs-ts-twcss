@@ -5,8 +5,6 @@ import { usePathname } from "next/navigation"
 
 const Button = ({ children, linck }: ButtonProps) => {
   const pathname = usePathname()
-  console.log(linck)
-  console.log(pathname)
 
   return (
     <Link
